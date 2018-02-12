@@ -1,0 +1,72 @@
+2018-02-12 19:31:44: restore: init
+2018-02-12 19:31:46: restore: table: wp_commentmeta (1/1)
+2018-02-12 19:31:46: restore: table: wp_commentmeta converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:47: restore: table: wp_comments (1/1)
+2018-02-12 19:31:47: restore: table: wp_comments converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:47: restore: table: wp_links (1/1)
+2018-02-12 19:31:47: restore: table: wp_links converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:47: restore: table: wp_options (1/1)
+2018-02-12 19:31:47: restore: table: wp_options converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:48: restore: table: wp_postmeta (1/1)
+2018-02-12 19:31:48: restore: table: wp_postmeta converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:48: restore: table: wp_posts (1/1)
+2018-02-12 19:31:48: restore: table: wp_posts converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:49: restore: table: wp_term_relationships (1/1)
+2018-02-12 19:31:49: restore: table: wp_term_relationships converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:49: restore: table: wp_term_taxonomy (1/1)
+2018-02-12 19:31:49: restore: table: wp_term_taxonomy converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:49: restore: table: wp_termmeta (1/1)
+2018-02-12 19:31:49: restore: table: wp_termmeta converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:49: restore: table: wp_terms (1/1)
+2018-02-12 19:31:49: restore: table: wp_terms converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:50: restore: table: wp_usermeta (1/1)
+2018-02-12 19:31:50: restore: table: wp_usermeta converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:50: restore: table: wp_users (1/1)
+2018-02-12 19:31:50: restore: table: wp_users converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:50: restore: table: wp_ai1ec_event_category_meta (1/1)
+2018-02-12 19:31:50: restore: table: wp_ai1ec_event_category_meta converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:50: restore: table: wp_ai1ec_event_feeds (1/1)
+2018-02-12 19:31:50: restore: table: wp_ai1ec_event_feeds converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:51: restore: table: wp_ai1ec_event_instances (1/1)
+2018-02-12 19:31:51: restore: table: wp_ai1ec_event_instances converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:51: restore: table: wp_ai1ec_events (1/1)
+2018-02-12 19:31:51: restore: table: wp_ai1ec_events converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:51: restore: table: wp_iwp_backup_status (1/1)
+2018-02-12 19:31:51: restore: table: wp_iwp_backup_status converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:51: restore: table: wp_iwp_file_list (1/1)
+2018-02-12 19:31:51: restore: table: wp_iwp_file_list converting URLs from [://secwac.mirandacreative.com] -> [://www.secwac.dev.cc]
+2018-02-12 19:31:52: restore: file-section: themes
+2018-02-12 19:31:52: restore: file-section: plugins
+2018-02-12 19:31:53: restore: file-section: media
+2018-02-12 19:31:53: restore: finish:
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_commentmeta`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_commentmeta` RENAME `wp_commentmeta`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_comments`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_comments` RENAME `wp_comments`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_links`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_links` RENAME `wp_links`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_options`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_options` RENAME `wp_options`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_postmeta`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_postmeta` RENAME `wp_postmeta`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_posts`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_posts` RENAME `wp_posts`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_term_relationships`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_term_relationships` RENAME `wp_term_relationships`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_term_taxonomy`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_term_taxonomy` RENAME `wp_term_taxonomy`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_termmeta`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_termmeta` RENAME `wp_termmeta`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_terms`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_terms` RENAME `wp_terms`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_usermeta`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_usermeta` RENAME `wp_usermeta`;
+2018-02-12 19:31:53: drop original table: DROP TABLE `wp_users`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_users` RENAME `wp_users`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_ai1ec_event_category_meta` RENAME `wp_ai1ec_event_category_meta`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_ai1ec_event_feeds` RENAME `wp_ai1ec_event_feeds`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_ai1ec_event_instances` RENAME `wp_ai1ec_event_instances`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_ai1ec_events` RENAME `wp_ai1ec_events`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_iwp_backup_status` RENAME `wp_iwp_backup_status`;
+2018-02-12 19:31:53: rename restored table: ALTER TABLE `_snapshot_recover_wp_iwp_file_list` RENAME `wp_iwp_file_list`;
+2018-02-12 19:31:53: restore: memory_limit: 512M
